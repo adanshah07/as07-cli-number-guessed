@@ -4,7 +4,9 @@
   "description": "second number gussing game project",
   "main": "index.js",
   "type": "module",
-  "bin": "index.js",
+  "bin": {
+    "cli-number-gusseing": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
